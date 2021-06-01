@@ -1,9 +1,13 @@
 {
-    "environments": [
-        {
-            "name": "production",
-            "configOverride": {},
-            "gitRef": "master"
-        }
-    ]
+  "environments": [
+    {
+      "name": "production",
+      "configOverride": {},
+      "gitRef": "master"
+    },
+    {
+      "name": "non_production",
+      "gitRef": "master"
+    }
+  ]
 }
