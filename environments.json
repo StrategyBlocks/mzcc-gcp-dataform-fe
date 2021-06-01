@@ -2,7 +2,7 @@
   "environments": [
     {
       "name": "production",
-      "configOverride": {},
+      "configOverride": { "defaultDatabase": "prj-mz-p-frontend-base-37a4" },
       "gitRef": "master"
     },
     {
